@@ -1,7 +1,11 @@
-
+import java.util.*;
 public class Factorial {
     public static void main(String[] args) {
-        int num = 5;
+        Scanner sc = new Scanner(System.in);
+        int num;
+        System.out.println("Enter a number : ");
+        num = sc.nextInt();
+
         int factorial = 1;
 
         for (int i = 1; i <= num; i++) {
